@@ -1,0 +1,8 @@
+1. Install expo client globally
+npm install -g expo-cli
+
+2. Initialize the react native project
+expo init <Project_Name>
+
+3. run the project
+npm start
