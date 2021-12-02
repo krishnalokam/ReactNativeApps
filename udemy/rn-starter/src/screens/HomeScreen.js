@@ -1,13 +1,18 @@
 import React from 'react';
-import { Text, StyleSheet } from 'react-native';
+import { View,Text, StyleSheet } from 'react-native';
 
 const HomeScreen = () => {
-  return <Text style={styles.text}>Hello Siva</Text>;
+  return <View style={styles.container}> <Text >Hello Siva</Text></View>
 };
 
 const styles = StyleSheet.create({
-  text: {
+  container: {
+    flex:1,
     fontSize: 30,
+    justifyContent:'center',
+    alignItems:"center",
+    color:"orange"
+    
   },
 });
 

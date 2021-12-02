@@ -8,7 +8,7 @@ const navigator = createStackNavigator(
     Component: ComponentScreen
   },
   {
-    initialRouteName: "Component",
+    initialRouteName: "Home",
     defaultNavigationOptions: {
       title: "App",
     },
